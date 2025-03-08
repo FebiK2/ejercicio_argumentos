@@ -1,0 +1,32 @@
+# Ignore build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# Ignore executables
+*.exe
+*.out
+*.app
+
+# Ignore object files
+*.o
+*.obj
+*.lo
+*.lai
+*.la
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.swp
